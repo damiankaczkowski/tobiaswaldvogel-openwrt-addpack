@@ -20,7 +20,7 @@ define Package/luci-nas
 	+luci-app-hdidle +luci-app-smartd +luci-app-mdadm +luci-app-idm \
 	+luci-app-samba4 +luci-app-transmission \
 	+zoneinfo-simple +zoneinfo-core +zoneinfo-europe +zoneinfo-northamerica \
-	+vsftp-aio +wget +nfs4-server \
+	+vsftp-aio +wget +nfsv4-server \
 	+lighttpd +lighttpd-mod-cgi +lighttpd-mod-redirect
 TITLE:=luci-nas
 endef
