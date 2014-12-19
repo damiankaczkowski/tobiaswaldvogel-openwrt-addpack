@@ -52,7 +52,7 @@ define Package/samba4-client
   CATEGORY:=Network
   TITLE:=Samba $(PKG_VERSION) SMB/CIFS client
   URL:=http://www.samba.org/
-  DEPENDS:=+libreadline +libncurses +libopenldap-sals +krb5-mit-libs +libaio +zlib
+  DEPENDS:=+libreadline +libncurses +libopenldap-sasl +krb5-mit-libs +libaio +zlib
 endef
 
 define Package/samba4-server/config
